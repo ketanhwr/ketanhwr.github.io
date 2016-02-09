@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Trebuchet';
+    src: url("../fonts/Trebuchet MS.ttf");
+}
+
+@font-face {
+    font-family: 'Brandon-Grotesque';
+    src: url("../fonts/Brandon_light.otf");
+}
+
+body
+{
+	margin: 0;
+  	padding: 0;
+	background-image: url('../img/bi2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.nav {
+	float: top;
+	top: 0px;
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Trebuchet';
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .6s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #b3e6ff;
+  color: #000;
+  cursor: default;
+}
+
+.nav li {
+	width: 150px;
+	border-bottom: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.4em;
+}
+
+.nav li {
+	float: left;
+}
+.nav ul {
+	overflow: auto;
+	width: 600px;
+	margin: 0 auto;
+}
+.nav {
+	background-color: #000;
+}
+
+#pic
+{
+	margin-top: 50px;
+	height: 634px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.name
+{
+	float: left;
+	margin-top: 200px;
+	margin-left: 120px;
+	font-family: 'Brandon-Grotesque';
+	color: #fff;
+  	font-size: 7.2em;
+  	text-shadow: none;
+	line-height: 85px;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.last-words
+{
+	color: #ffff33;
+	margin-left: 5px;
+	font-size: 0.51em;
+}
+
+#content
+{
+	/*margin: 0px;*/
+	padding: 25px;
+	height: 584px;
+	background-color: #1ab2ff;
+	text-align: center;
+}
+
+.heading
+{
+	margin: 0px 0px 0px 0px;
+	font-size: 4em;
+	font-family: 'Brandon-Grotesque';
+	color: #fff;
+}
+
+.subheading
+{
+	margin: 0px 0px 0px 0px;
+	margin-bottom: 20px;
+	font-family: 'Brandon-Grotesque';
+	font-size: 3em;
+	color: #fff;
+}
+
+.exp
+{
+	background-color: #fff;
+	margin: 10px;
+	float: left;
+	height: 380px;
+	width: 390px;
+	border-radius: 10px;
+	box-shadow: 0 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+.etext
+{
+	margin-top: 15px;
+	font-family: 'Brandon-Grotesque';
+	font-size: 1.9em;
+	color: #00254d;
+}
+
+#unreal
+{
+	width: 40%;
+	height: 40%;
+	float: left;
+	margin-left: 47px;
+	margin-top: -24px;
+}
+
+#html5
+{
+	float: left;
+	width: 30%;
+	height: 30%;
+	margin-top: -7px;
+}
+
+#phpsql
+{
+	float: left;
+	width: 45%;
+	height: 30%;
+	margin-left: 50px;
+}
+
+#github
+{
+	float: left;
+	width: 30%;
+	height: 30%;
+	margin-left: 15px;
+}
+
+#cf
+{
+	width: 30%;
+	height: 35%;
+	float: left;
+	margin-left: 60px;
+	margin-top: -15px;
+}
+
+#cc
+{
+	float: left;
+	margin-left: 40px;
+	width: 30%;
+	height: 30%;
+	margin-top: -5px;
+}
+
+.cptext
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Brandon-Grotesque';
+	font-size: 1.25em;
+}
+
+.gdev
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Brandon-Grotesque';
+	font-size: 1.25em;
+}
+
+.webd
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'Brandon-Grotesque';
+	font-size: 1.25em;
+}
