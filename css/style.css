@@ -138,7 +138,7 @@ body
 	margin: 10px;
 	float: left;
 	height: 380px;
-	width: 390px;
+	width: 31.6%;
 	border-radius: 10px;
 	box-shadow: 0 0px 50px rgba(0, 0, 0, 0.5);
 }
@@ -151,13 +151,14 @@ body
 	color: #00254d;
 }
 
-#unreal
+#unity
 {
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: 30%;
 	float: left;
 	margin-left: 47px;
-	margin-top: -24px;
+	margin-right: 25px;
+	margin-top: -8px;
 }
 
 #html5
