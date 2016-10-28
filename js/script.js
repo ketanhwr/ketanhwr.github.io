@@ -1,7 +1,3 @@
-$(window).on("load", function() {
-    $('body').css("display", "flex");
-});
-
 $('a[href*=\\#]').on('click', function(event) {     
     event.preventDefault();
 
