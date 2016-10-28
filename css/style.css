@@ -3,6 +3,10 @@ body, html {
 	margin: 0;
 }
 
+body {
+	display: none;
+}
+
 div#home {
 	background-image: url(../img/cover5.jpg);
 	background-size: cover;
