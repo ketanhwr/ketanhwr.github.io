@@ -4,8 +4,10 @@ body, html {
 }
 
 div#home {
-	background-image: url(../img/cover2.jpg);
+	background-image: url(../img/cover8.jpg);
 	background-size: cover;
+	background-size: 115%;
+	/*background-position: right bottom;*/
 }
 
 div#about {
@@ -61,24 +63,24 @@ nav{
 	margin-top: 2px;
 	height: 1px;
 	width: 0px;
-	background: black;
+	background: white;
 	transition: width .2s linear;
 }
 
 .navbar-block:hover:after {
 	width: 96%;
-	background: black;
+	background: white;
 }
 
 .heading {
-	color: black;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 94px;
 }
 
 .subheading {
-	color: black;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	font-size: 40px;
