@@ -4,18 +4,16 @@ body, html {
 }
 
 div#home {
-	background-image: url(../img/cover6.jpg);
+	background-image: url(../img/cover2.jpg);
 	background-size: cover;
-	/*background-position: 0% 22.5%;*/
 }
 
 div#about {
-	background-image: url(../img/cover4.png);
+	background-image: url(../img/cover2.jpg);
 	background-size: 100%;
 }
 
 nav{
-	margin-left: 40%;
 }
 
 .slide {
@@ -30,7 +28,6 @@ nav{
 .middle {
 	text-align: center;
 	margin-bottom: 20px;
-	margin-left: 40%;
 }
 
 .navbar{
