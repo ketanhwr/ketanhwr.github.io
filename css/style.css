@@ -4,9 +4,9 @@ body, html {
 }
 
 div#home {
-	background-image: url(../img/cover8.jpg);
+	background-image: url(../img/earphones.png);
 	background-size: cover;
-	background-size: 115%;
+	/*background-size: 115%;*/
 	/*background-position: right bottom;*/
 }
 
